@@ -1,0 +1,4 @@
+启动
+cd /www/server/twsix && python3 start_server.py start
+停止
+cd /www/server/twsix && python3 start_server.py stop

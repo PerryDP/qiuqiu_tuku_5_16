@@ -1,0 +1,14 @@
+网址  http://momarksix.com
+要求
+确认一下，后台的功能：
+1，能设置开奖日期
+2，能设置奖金金额
+3，输入每期开奖结果
+4，后台设置十二生肖对应的号码，这个每年不同
+
+
+Bt-Panel: http://156.232.88.234:18234/49883e73
+username: funv7vaq6688
+password: D096fa0fS235b
+
+网址:taiwankj.com

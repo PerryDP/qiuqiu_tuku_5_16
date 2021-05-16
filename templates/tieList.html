@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <title>高手帖</title>
+{#    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>#}
+
+    <style>
+        .item {
+            padding: 20px;
+            border-top: 1px solid #2d2f33;
+            border-bottom: 1px solid #2d2f33;
+            font-size: 26px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+{% for i in tuku %}
+<div class="item">
+    <a href="/pages/tie/{{ i['id'] }}">  {% raw i['title']  %}</a>
+</div>
+{% end %}
+
+</body>
+</html>
